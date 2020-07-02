@@ -308,17 +308,25 @@ span.email-button:hover p {
 
   footer h2 {
     font-size: 28px !important;
+    font-family: Campton-book;
   }
 
   h1 {
     font-size: 25px;
+    font-family: Campton-book;
   }
 
   h2 {
     font-size: 20px;
+    font-family: Campton-book;
   }
 
   h3 {
     font-size: 16px;
+    font-family: Campton-book;
+  }
+
+  p {
+    font-family: Campton-book;
   }
 }
