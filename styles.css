@@ -34,16 +34,16 @@ h2 {
 h3 {
   color: #121738;
   font-size: 28px;
-  font-family: Campton-light;
+  font-family: Campton-bold;
 }
 
 p {
-  font-family: Campton-light;
+  font-family: Campton-bold;
 }
 li {
   color: #121738;
   font-size: 28px;
-  font-family: Campton-light;
+  font-family: Campton-bold;
 }
 #logo {
   width: 295px;
@@ -137,6 +137,7 @@ div.pay-button a {
   font-weight: 900;
   text-decoration: none;
   color: #ffffff;
+  font-family: Campton-bold;
 }
 div.pay-button:hover {
   background-color: #fbe871;
