@@ -1,0 +1,294 @@
+@font-face {
+  font-family: Campton-bold;
+  src: url(Campton-Bold.otf);
+}
+
+@font-face {
+  font-family: Campton-light;
+  src: url(Campton-Light.otf);
+}
+@font-face {
+  font-family: Campton-book;
+  src: url(Rene.Bieder_Campton.Book.otf);
+}
+
+body {
+  margin: 0;
+  font-family: Campton-book;
+}
+
+h1 {
+  color: #121738;
+  font-size: 40px;
+  font-family: Campton-bold;
+}
+
+h2 {
+  color: #121738;
+  font-size: 32px;
+  font-family: Campton-bold;
+}
+
+h3 {
+  color: #121738;
+  font-size: 28px;
+  font-family: Campton-book;
+}
+
+li {
+  color: #121738;
+  font-size: 28px;
+}
+#logo {
+  width: 295px;
+  height: 147px;
+}
+
+section.landing {
+  height: 1110px;
+}
+
+div.left {
+  width: 50%;
+  height: 100%;
+}
+
+div.checkout {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  background-color: #121738;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.checkout h1 {
+  color: #fecb2e;
+}
+
+div.checkout-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.checkout-form h2 {
+  color: #ffffff;
+}
+
+div.checkout-form h4 {
+  color: #868fb8;
+}
+input {
+  color: #dedede;
+  font-size: 28px;
+  width: 464px;
+  height: 67px;
+  border: solid 2px #dedede;
+
+  resize: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.checkout-title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+label {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 25px 0;
+  width: 90%;
+}
+
+div.duo-label input {
+  width: 215px;
+  margin: 20px 5px;
+}
+
+div.pay-button {
+  background-color: #fecb2e;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin-top: 54px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px 120px;
+
+  text-align: center;
+
+  transition: ease all 0.5s;
+}
+div.pay-button a {
+  font-size: 34px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
+}
+div.pay-button:hover {
+  background-color: #fbe871;
+  transform: scale(1.09);
+}
+
+div.pay-button:hover a {
+  color: #121738;
+  transition: ease 0.5s;
+}
+
+div.left {
+  margin: 0 0 0 40px;
+}
+
+li {
+  margin: 0 0 25px 0;
+}
+
+section.review {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+#lesley {
+  width: 120px;
+  height: 120px;
+  transition: ease all 0.5s;
+}
+
+#lesley:hover {
+  transform: scale(1.04);
+}
+
+section.review h4 {
+  color: #121738;
+}
+
+#stars {
+  transition: ease all 0.5s;
+  widows: 600px;
+  height: 90px;
+}
+
+#stars:hover {
+  transform: scale(1.04);
+}
+
+section.section-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+
+#img2 {
+  width: 620px;
+  height: 315px;
+}
+
+footer {
+  background-color: #121738;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+span.email-button {
+  background-color: #fecb2e;
+  padding: 5px 70px;
+  margin: 25px 0;
+  border-radius: 5px 5px 5px 5px;
+  transition: ease all 0.5s;
+}
+
+span.email-button:hover {
+  background-color: #fbe871;
+  transform: scale(1.05);
+}
+span.email-button p {
+  color: #ffffff;
+  transition: ease all 0.5s;
+}
+
+span.email-button:hover p {
+  color: #121738;
+}
+
+.thank-message {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  section.landing {
+    display: block;
+    height: auto;
+  }
+
+  div.checkout {
+    display: block;
+  }
+
+  div.left {
+    display: block;
+    height: auto;
+  }
+
+  /* Element | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/index.html */
+
+  .checkout {
+    position: static !important;
+    width: 100% !important;
+  }
+
+  /* Element | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/index.html */
+
+  .left {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* styles.css | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/styles.css */
+
+  div.left {
+    /* margin: 0 0 0 40px; */
+    margin: 0 !important;
+  }
+
+  iframe {
+    width: 70%;
+    height: 70%;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  .section-3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  #img2 {
+    width: 100%;
+  }
+
+  .video-2 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
