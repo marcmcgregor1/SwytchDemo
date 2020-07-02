@@ -1,13 +1,13 @@
 @font-face {
   font-family: Campton-bold;
-  src: url(Campton-Bold.otf) format("otf");
-  src: url(Campton-Bold2.otf) format("otf2");
+  src: url(Campton-Bold.otf);
+  src: url(Campton-Bold2.otf);
 }
 
 @font-face {
   font-family: Campton-light;
-  src: url(Campton-Light.otf) format("otf");
-  src: url(Campton-Light2.otf) format("otf2");
+  src: url(Campton-Light.otf);
+  src: url(Campton-Light2.otf);
 }
 @font-face {
   font-family: Campton-book;
@@ -37,6 +37,9 @@ h3 {
   font-family: Campton-light;
 }
 
+p {
+  font-family: Campton-light;
+}
 li {
   color: #121738;
   font-size: 28px;
