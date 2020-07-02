@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: Campton-light;
-  src: url(Campton-Light.otf);
+  src: url(Campton-Light.otf) format("otf");
+  src: url(Campton-Light2.otf) format("otf2");
 }
 @font-face {
   font-family: Campton-book;
@@ -15,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: Campton-book;
+  font-family: Campton-light;
 }
 
 h1 {
@@ -33,13 +34,13 @@ h2 {
 h3 {
   color: #121738;
   font-size: 28px;
-  font-family: Campton-book;
+  font-family: Campton-light;
 }
 
 li {
   color: #121738;
   font-size: 28px;
-  font-family: Campton-book;
+  font-family: Campton-bold;
 }
 #logo {
   width: 295px;
