@@ -1,6 +1,7 @@
 @font-face {
   font-family: Campton-bold;
-  src: url(Campton-Bold.otf);
+  src: url(Campton-Bold.otf) format("otf");
+  src: url(Campton-Bold2.otf) format("otf2");
 }
 
 @font-face {
@@ -274,6 +275,15 @@ span.email-button:hover p {
     width: 70%;
     height: 70%;
   }
+
+  ul {
+    padding: 0;
+  }
+
+  label {
+    text-align: center;
+  }
+
   li {
     list-style-type: none;
     text-align: center !important;
