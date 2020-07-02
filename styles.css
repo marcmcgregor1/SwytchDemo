@@ -291,4 +291,21 @@ span.email-button:hover p {
     width: 100% !important;
     height: 100% !important;
   }
+
+  input {
+    width: 250px;
+  }
+
+  .duo-label {
+    display: block;
+    text-align: center;
+  }
+
+  #stars {
+    width: 200px;
+  }
+
+  footer h2 {
+    font-size: 28px;
+  }
 }
