@@ -243,6 +243,7 @@ span.email-button:hover p {
 
   div.checkout {
     display: block;
+    padding-top: 25px;
   }
 
   div.left {
@@ -250,24 +251,17 @@ span.email-button:hover p {
     height: auto;
   }
 
-  /* Element | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/index.html */
-
   .checkout {
     position: static !important;
     width: 100% !important;
   }
-
-  /* Element | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/index.html */
 
   .left {
     width: 100% !important;
     text-align: center;
   }
 
-  /* styles.css | file:///Users/Marc/Desktop/Swytch%20Demo%20Site/styles.css */
-
   div.left {
-    /* margin: 0 0 0 40px; */
     margin: 0 !important;
   }
 
@@ -277,6 +271,7 @@ span.email-button:hover p {
   }
   li {
     list-style-type: none;
+    text-align: center !important;
   }
 
   .section-3 {
